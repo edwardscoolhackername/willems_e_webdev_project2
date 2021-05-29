@@ -1,0 +1,66 @@
+.hidden {
+  display: none;
+}
+
+#siteholder {
+  display: flex;
+  justify-content: center;
+}
+#sitecontainer {
+  width: 960px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  color: #FF9F30;
+  margin: 0px 0px 20px 0px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  color: #FF9F30;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: 'Domine', serif;
+  font-size: 15pt;
+  color: #5c5c5c;
+  margin: 0px 10px 0px 10px;
+  line-height: 1.2em;
+}
+p::first-line {
+  font-weight: bold;
+  font-size: 17pt;
+}
+p::first-letter {
+  font-size: 25pt;
+  color: #ff9e30;
+}
+
+
+#titlebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.imageandtextbox {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+#highangle {
+  height: 360px;
+  width: 543px;
+}
